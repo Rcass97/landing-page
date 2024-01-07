@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav div p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerLinks {
+    font-size: 18px;
+    font-weight: 100;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+}
+
+#underHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+#underHeader div {
+    width: 25%;
+}
+
+#underHeader div h1 {
+    font-size: 48px;
+    color: #f9FAf8;
+    font-weight: bold;
+}
+
+.placeholderImg img{
+    width: 450px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.headerLogo img{
+    width: 75px;
+    height: auto;
+}
+
+.secondaryHero {
+    font-size: 18px;
+    font-weight: 100;
+    color: #E5E7EB;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bodyHeader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.mainBodyInfo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bodyImgs {
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bodyImgs img {
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.lowerInfo {
+    background-color: #E5E7EB;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+}
+
+.lowerInfo span {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.button{
+    background: none;
+	color: white;
+	border: none;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 75px;
+    padding: 10px;
+}
+.buttonTwo{
+    background: none;
+	color: white;
+	border: solid 1px white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 75px;
+    padding: 10px;
+}
+
+.aboveFooter{
+    margin: 70px 0 70px 0;
+}
+
+.signUpDiv{
+    background-color: #3882F6;
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+}
+
+footer{
+    background-color: #1F2937;
+    margin: 0;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+}
+
+footer span{
+    color: #F9FAF8;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
